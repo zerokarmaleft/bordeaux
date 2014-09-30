@@ -1,4 +1,4 @@
-(defproject bordeaux "0.1.0-SNAPSHOT"
+(defproject bordeaux "0.1.0"
   :description 
   "A Clojure client for the REDCap API"
 
@@ -8,6 +8,8 @@
   :license 
   {:name "MIT License"
    :url  "http://opensource.org/licenses/MIT"}
+
+  :lein-release {:deploy-via :clojars}
 
   :dependencies 
   [[org.clojure/clojure     "1.6.0"]
